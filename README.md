@@ -15,6 +15,9 @@ Prepare the lists from each linear equations and assign in np.array()
 End the program
 ## Program:
 ```
+#Program to find the solution for the given EigenValues and EigenVectors
+#Developed by: M.Jayachandran
+#RegisterNumber: 22008847
 import numpy as np
 A=np.array([[2,-3,0],[2,-5,0],[0,0,3]])
 values,vectors=np.linalg.eig(A)
